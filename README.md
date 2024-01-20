@@ -242,7 +242,7 @@ size.
 > the last element which is added to the stack is the first element
 > which is deleted from the stack.
 
-**Applications:**\
+**Applications:**
 > •Temporary storage structure for recursive operation.
 > •Auxiliary storage structure for nested operations, function calls,\
 > deferred/postponed functions\
@@ -276,7 +276,7 @@ size.
 > by the customers in BPO
 
 
-**V) Trees**\
+**V) Trees**
 A tree is a non-linear data structure in which data is organized in
 branches. The data elements in tree are arranged in a sorted order. It
 imposes a hierarchical structure on the data elements.
@@ -307,6 +307,7 @@ directory and file system.
 > •path-finding algorithm to implement in AI, robotics and video games
 > applications
 
+
 **VI) Graphs**
 
 > A graph is also a non-linear data structure. In a tree data structure,
@@ -322,15 +323,15 @@ composed of a set of vertexes and a set of edges.
 
 **Applications:**
 > •Representing networks and routes in communication, transportation and
-travel applications\
-> •Routes in GPS\
+travel applications
+> •Routes in GPS
 > •Interconnections in social networks and other network-based
-applications •Mapping applications\
-> •Ecommerce applications to present user preferences\
+applications •Mapping applications
+> •Ecommerce applications to present user preferences
 > •Utility networks to identify the problems posed to municipal or local
-corporations •Resource utilization and availability in an organization\
+corporations •Resource utilization and availability in an organization
 > •Document link map of a website to display connectivity between pages
-through hyperlinks\
+through hyperlinks
 > •Robotic motion and neural networks
 
 **1.4 STATIC DATA STRUCTURE VS DYNAMIC DATA STRUCTURE**
@@ -341,14 +342,18 @@ as memory. Simply, Data Structure are used to reduce complexity (mostly
 the time complexity) of the code.
 
 > Data structures can be two types:
+
 > 1. Static Data Structure
+>    
 > 2. Dynamic Data Structure
+
 
 **What is a Static Data structure?**
 
 > In Static data structure the size of the structure is fixed. The
 > content of the data structure can be modified but without changing the
 > memory space allocated to it.
+
 
 > **What is Dynamic Data Structure?**
 
@@ -358,6 +363,7 @@ the time complexity) of the code.
 > run time.
 
 > Example of Dynamic Data Structures:
+
 
 > **Static Data Structure vs Dynamic Data Structure**
 > Static Data structure has fixed memory size whereas in Dynamic Data
@@ -399,6 +405,7 @@ the time complexity) of the code.
 > ***Merging*** Lists of two sorted data items can be combined to form a
 > single list of sorted data items.
 
+
 **1.6 ABSTRACT DATA TYPE**
 
 > According to National Institute of Standards and Technology (NIST), a
@@ -425,7 +432,7 @@ An implementation of ADT consists of storage structures to store the
 data items and algorithms for basic operation. All the data structures
 i.e. array, linked list, stack, queue etc are examples of ADT.
 
-> **Advantage of using ADTs**
+**Advantage of using ADTs**
 > In the real world, programs *evolve* as a result of new requirements
 > or constraints, so a modification to a program commonly requires a
 > change in one or more of its data structures. For example, if you want
@@ -465,18 +472,24 @@ i.e. array, linked list, stack, queue etc are examples of ADT.
 >
 
 **1.7.1 Characteristics of an Algorithm**
->
+
 > Not all procedures can be called an algorithm. An algorithm should
 > have the following characteristics −
 >
 > An algorithm should have the following characteristics −
 
-**Clear and Unambiguous**: Algorithm should be clear and unambiguous. Each of its steps should be clear in all aspects and must lead to only one meaning. 
-**Well-Defined Inputs**: If an algorithm says to take inputs, it should be well-defined inputs.  
-**Well-Defined Outputs:** The algorithm must clearly define what output will be yielded and it should be well-defined as well.                           
-**Finite-ness:** The algorithm must be finite, i.e. it should not end up in an infinite loops or similar. 
-**Feasible:**
-**Language Independent:**
+> **Clear and Unambiguous**: Algorithm should be clear and unambiguous. Each of its steps should be clear in all aspects and must lead to only one meaning. 
+>
+> **Well-Defined Inputs**: If an algorithm says to take inputs, it should be well-defined inputs.
+>  
+> **Well-Defined Outputs:** The algorithm must clearly define what output will be yielded and it should be well-defined as well.
+>                          
+> **Finite-ness:** The algorithm must be finite, i.e. it should not end up in an infinite loops or similar.
+> 
+> **Feasible:**
+> 
+> **Language Independent:**
+
 
 **1.7.2 Advantages and Disadvantages of Algorithm**
 
@@ -512,6 +525,7 @@ i.e. array, linked list, stack, queue etc are examples of ADT.
 > of abstraction are implemented
 >
 
+
 **1.7.4 How to Write an Algorithm?**
 >
 > There are no well-defined standards for writing algorithms. Rather, it
@@ -532,22 +546,34 @@ i.e. array, linked list, stack, queue etc are examples of ADT.
 **Problem** − Design an algorithm to add two numbers and display the
 > result.
 
-**Step 1** − START\
-**Step 2** − declare three integers **a**, **b** & **c**
-**Step 3** − define values of **a** & **b**
-**Step 4** − add values of **a** & **b**
-**Step 5** − store output of step 4 to **c**
-**Step 6** − print **c**
-**Step 7** − STOP
+>
+>**Step 1** − START
+>
+>**Step 2** − declare three integers **a**, **b** & **c**
+>
+> **Step 3** − define values of **a** & **b**
+>
+>**Step 4** − add values of **a** & **b**
+>
+>**Step 5** − store output of step 4 to **c**
+>
+>**Step 6** − print **c**
+>
+>**Step 7** − STOP
 
 > Algorithms tell the programmers how to code the program.
 > Alternatively, the algorithm can be written as −
 
-**Step 1** − START ADD
-**Step 2** − get values of **a** & **b**
-**Step 3** − c ← a + b
-**Step 4** − display c
-**Step 5** − STOP
+>**Step 1** − START ADD
+>
+>**Step 2** − get values of **a** & **b**
+>
+>**Step 3** − c ← a + b
+>
+>**Step 4** − display c
+>
+>**Step 5** − STOP
+
 
 > In design and analysis of algorithms, usually the second method is
 > used to describe an algorithm. It makes it easy for the analyst to
@@ -580,6 +606,7 @@ i.e. array, linked list, stack, queue etc are examples of ADT.
 > size of input data.
 >
 
+
 **1.8.1 Space Complexity**
 >
 > Space complexity of an algorithm represents the amount of memory space
@@ -594,21 +621,27 @@ i.e. array, linked list, stack, queue etc are examples of ADT.
 > on the size of the problem. For example, dynamic memory allocation,
 > recursion stack space, etc.
 
-Space complexity S(P) of any algorithm P is S(P) = C + SP(I), where C is
-the fixed part and S(I) is the variable part of the algorithm, which
-depends on instance characteristic I.
+> Space complexity S(P) of any algorithm P is S(P) = C + SP(I), where C is
+> the fixed part and S(I) is the variable part of the algorithm, which
+> depends on instance characteristic I.
 
 > Following is a simple example that tries to explain the concept −
 
 **Algorithm:**
 > SUM(A, B)
+> 
 > Step 1 - START
+> 
 > Step 2 - C ← A + B + 10
+> 
 > Step 3 - Stop
 
 > Here we have three variables A, B, and C and one constant. Hence S(P)
+> 
 > = 1 + 3. Now, space depends on data types of given variables and
+> 
 > constant types and it will be multiplied accordingly.
+
 
 **1.8.2 Time Complexity**
 >
@@ -663,11 +696,13 @@ function for arbitrarily large input. Big-O notation, Omega notation,
 and Theta notation are used to estimate the complexity function for
 large arbitrary input.
 
+
 **1.9.1 Types of Analysis**
 
 The efficiency of some algorithms may vary for inputs of the same size.
 For such algorithms, we need to differentiate between the worst case,
 average case and best case efficiencies.
+
 
 **1.9.1.1 Best Case Analysis**
 
@@ -676,6 +711,7 @@ of input, then it is called the best case time complexity. The best case
 efficiency of an algorithm is the efficiency for the best case input of
 size **n**. Because of this input, the algorithm runs the fastest among
 all the possible inputs of the same size.
+
 
 **1.9.1.2 Average Case Analysis**
 
@@ -688,6 +724,7 @@ algorithm's behavior on a typical or random input. You must make some
 assumption about the possible inputs of size **n** to analyze the
 average case efficiency of algorithm.
 
+
 **1.9.1.3 Worst Case Analysis**
 
 If an algorithm takes maximum amount of time to execute for a specific
@@ -695,6 +732,7 @@ set of input, then it is called the worst case time complexity. The
 worst case efficiency of an algorithm is the efficiency for the worst
 case input of size **n**. The algorithm runs the longest among all the
 possible inputs of the similar size because of this input of size **n**.
+
 
 **1.10 MATHEMATICAL NOTATION**
 
@@ -717,9 +755,6 @@ computing its time complexity. The asymptotic notations help to
 represent the time complexity in a shorthand way. It can generally be
 represented as the fastest possible, slowest possible or average
 possible.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image51.png){width="5.888888888888889in"
-height="4.430555555555555in"}
 
 The notations such as O (Big-O), Ώ (Omega), and θ (Theta) are called as
 asymptotic
@@ -783,37 +818,46 @@ increases, n3 becomes much larger than n2, nlog n, and n. Hence, it
 dominates the function f(n) and we can consider the running time to grow
 by the order of n3. Therefore, it can be written as f(n)=O(n3).
 
-The values of n for f(n) and C\* g(n) will not be less than n0.
+The values of n for f(n) and C* g(n) will not be less than n0.
 Therefore, the values less than n0 are not considered relevant.
 
 **Figure 1.8: Big-O Notation f(n) = O(g(n))**
 
 > Let us take an example to understand the Big-O notation more clearly.
 
-**Example:**\
+**Example:**
 Consider function f(n) = 2(n)+2 and g(n) = n2.
 
 We need to find the constant c such that f(n) ≤ c ∗ g(n).
 
-Let n = 1, then
-f(n) = 2(n)+2 = 2(1)+2 = 4
+> Let n = 1, then
+> f(n) = 2(n)+2 = 2(1)+2 = 4
+>
+> g(n) = n2 = 12 = 1
+> 
+> Here, f(n) > g(n)
+> 
+> Let n = 2, then,
+> 
+> f(n) = 2(n)+2 = 2(2)+2 = 6
+> 
+> g(n) = n2 = 22 = 4
 
-g(n) = n2 = 12 = 1
-Here, f(n) > g(n)
-Let n = 2, then,
-f(n) = 2(n)+2 = 2(2)+2 = 6
-g(n) = n2 = 22 = 4
-
-Here, f(n) > g(n)
-Let n = 3, then
-f(n) = 2(n)+2 = 2(3)+2 = 8
-g(n) = n2 = 32 = 9
-Here, f(n) < g(n)
+> Here, f(n) > g(n)
+> 
+> Let n = 3, then
+> 
+>f(n) = 2(n)+2 = 2(3)+2 = 8
+> 
+>g(n) = n2 = 32 = 9
+> 
+>Here, f(n) < g(n)
 
 Thus, when n is greater than 2, we get f(n) < g(n). In other words, as
 **n** becomes larger, the running time increases considerably. This
 concludes that the Big-O helps to determine the 'upper bound' of the
 algorithm's run-time.
+
 
 **Limitations of Big O Notation**
 There are certain limitations with the Big O notation of expressing the
@@ -831,6 +875,7 @@ complexity of algorithms. These limitations are as follows:\
 > O(n2 ) time to execute and the other takes O(100000n2 ) time to
 > execute, then as per Big O, both algorithm have equal time complexity.
 > In real-time systems, this may be a serious consideration.
+
 
 **1.10.1.2 Omega Notation**
 
@@ -862,22 +907,35 @@ Consider function f(n) = 2n2+5 and g(n) = 7n.
 
 We need to find the constant c such that f(n) ≥ c ∗ g(n).
 
-Let n = 0, then,
-f(n) = 2n2+5 = 2(0)2+5 = 5
-g(n) = 7(n) = 7(0) = 0
-Here, f(n) > g(n)
-Let n = 1, then
+>Let n = 0, then,
+>
+>f(n) = 2n2+5 = 2(0)2+5 = 5
+>
+>g(n) = 7(n) = 7(0) = 0
+>
+>Here, f(n) > g(n)
 
-f(n) = 2n2+5 = 2(1)2+5 = 7 g(n) = 7(n) = 7(1) = 7
-Here, f(n)=g(n)
-Let n = 2, then
-f(n) = 2n2+5 = 2(2)2+5 = 13
 
+>Let n = 1, then
+>
+>f(n) = 2n2+5 = 2(1)2+5 = 7
+>
+>g(n) = 7(n) = 7(1) = 7
+>
+>Here, f(n)=g(n)
+
+
+>Let n = 2, then
+>
+>f(n) = 2n2+5 = 2(2)2+5 = 13
+>
 > g(n) = 7(n) = 7(2) = 14
+>
 > Here, f(n) < g(n)
 
 Thus, for n=1, we get f(n) ≥ c ∗ g(n). This concludes that Omega helps
 to determine the \"lower bound\" of the algorithm\'s run-time.
+
 
 **1.10.1.3 Theta Notation**
 
@@ -900,31 +958,37 @@ constant multiples of **g(n)** for all large values of **n**, i.e., if
 there exists some positive constant **c1** and **c2** and some
 non-negative integer **n0,** such that C2g(n)≤f(n)≤ C1g(n) for all n≥n0.
 
-> Figure shows Theta notation.
-
-**Figure 1.10: Theta Notation f(n) = θ(g(n))**
-
 > Let us take an example to understand the Theta notation more clearly.
 
 **Example:** Consider function f(n) = 4n + 3 and g(n) = 4n for all n ≥
 3; and f(n) = 4n + 3 and g(n) = 5n for all n ≥ 3.
 
 > Then the result of the function will be:
+
 > Let n = 3
+> 
 > f(n) = 4n + 3 = 4(3)+3 = 15
+> 
 > g(n) = 4n =4(3) = 12 and
 >
 > f(n) = 4n + 3 = 4(3)+3 = 15
+> 
 > g(n) = 5n =5(3) = 15 and
 
 > here, c1 is 4, c2 is 5 and n0 is 3
+> 
 > Thus, from the above equation we get c1 *g*(n) *f*(n) c2 *g*(n). This
 > concludes that Theta notation depicts the running time between the
 > upper bound and lower bound.
 
-**1.11 ALGORITHM DESIGN TECHNIQUE** 1.11.1 Divide and Conquer
+
+**1.11 ALGORITHM DESIGN TECHNIQUE** 
+>1.11.1 Divide and Conquer
+>
 >1.11.2 Back Tracking Method
+>
 >1.11.3 Dynamic programming
+
 
 **1.11.1 Divide and Conquer**
 
@@ -991,7 +1055,7 @@ Conquer approach:
 > value. The process keeps on repeating until the target value is met.
 > If we found the other half to be empty after ending the search, then
 > it can be concluded that the target is not present in the array.
->
+
 > 2.**Quicksort:** It is the most efficient sorting algorithm, which is
 > also known as partition-exchange sort. It starts by selecting a pivot
 > value from an array followed by dividing the rest of the array
@@ -999,12 +1063,13 @@ Conquer approach:
 > of the elements with the pivot value. It compares whether the element
 > holds a greater value or lesser value than the pivot and then sort the
 > arrays recursively.
->
+
 > 3.**Merge Sort:** It is a sorting algorithm that sorts an array by
 > making comparisons. It starts by dividing an array into sub-array and
 > then recursively sorts each of them. After the sorting is done, it
 > merges them back.
->
+
+
 > **Advantages of Divide and Conquer**
 
 > oDivide and Conquer tend to successfully solve one of the biggest
@@ -1028,7 +1093,7 @@ Conquer approach:
 > greater than the stack present in the CPU.
 >
 
-> **1.11.2 Backtracking**
+**1.11.2 Backtracking**
 >
 > **Introduction**
 >
@@ -1060,7 +1125,7 @@ Conquer approach:
 > as follows:
 >
 > **To \"explore\" node N:**\
-> 1. If N is a goal node, return \"success\"\
+> 1. If N is a goal node, return \"success\"
 > 2. If N is a leaf node, return \"failure\"\
 > 3. For each child C of N,\
 > Explore C\
@@ -1079,8 +1144,6 @@ Conquer approach:
 > **Implicit Constraint** is ruled, which determine which each of the
 > tuples in the solution space, actually satisfy the criterion function.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
 
 **1.11.3 Dynamic programming**
 
@@ -1097,7 +1160,7 @@ problem just once and then saves its answer in a table, thereby avoiding
 the work of recomputing the answer every time the sub subproblems is
 encountered.
 
-Therefore **\"Dynamic programming is a applicable when sub problem are
+Therefore **"Dynamic programming is a applicable when sub problem are
 not independent, that is when sub problem share sub problems.\"**
 
 As Greedy approach, Dynamic programming is typically applied to
@@ -1111,7 +1174,8 @@ from smaller sub problems, and by trying many possibilities and choices
 before it arrives at the optimal set of choices.
 
 The Development of a dynamic-programming algorithm can be broken into a
-sequence of four steps:\
+sequence of four steps:
+
 **Divide, Sub problems:** The main problems are divided into several
 smaller sub\
 problems. In this the solution of the main problem is expressed in terms
@@ -1133,10 +1197,12 @@ required after finding out optimal solution.)**
 Now for any problem to be solved through dynamic programming approach it
 must follow the following conditions:
 
+
 **Principle of Optimality:** It states that for solving the master
 problem optimally, its sub problems should be solved optimally. It
 should be noted that not all the times each sub problem(s) is solved
 optimally, so in that case we should go for optimal majority.
+
 
 **Polynomial Breakup:** For solving the main problem, the problem is
 divided into several sub problems and for efficient performance of
@@ -1162,60 +1228,81 @@ as follows: 1.Knapsack problem.
 >
 > 9.Optimal binary search trees.
 
+
 **1.12 SUMMARY**
 • A data structure is a particular way of storing and organizing data
 either in computer's memory or on the disk storage so that it can be
 used efficiently.
+
 • There are two types of data structures: primitive and non-primitive data
 structures.
+
 • Primitive data structures are the fundamental data types which are
 supported by a programming language. Nonprimitive data structures are
 those data structures which are created using primitive data structures.
+
 • Non-primitive data structures can further be classified into two
 categories: linear and non-linear data structures.
+
 • If the elements of a data structure are stored in a linear or sequential
 order, then it is a linear data structure. However, if the elements of a
 data structure are not stored in sequential order, then it is a
 non-linear data structure.
+
 • An array is a collection of similar data elements which are stored in
 consecutive memory locations.
+
 • A linked list is a linear data structure consisting of a group of
 elements (called nodes) which together represent a sequence.
+
 • A stack is a last-in, first-out (LIFO) data structure in which insertion
 and deletion of elements are done at only one end, which is known as the
 top of the stack.
+
 • A queue is a first-in, first-out (FIFO) data structure in which the
 element that is inserted first is the first to be taken out. The
 elements in a queue are added at one end called the rear and removed
 from the other end called the front.
+
 • A tree is a non-linear data structure which consists of a collection of
 nodes arranged in a hierarchical tree structure.
+
 • A graph is often viewed as a generalization of the tree structure, where
 instead of a purely parent-to-child relationship between tree nodes, any
 kind of complex relationships can exist between the nodes.
+
 • An abstract data type (ADT) is the way we look at a data structure,
 focusing on what it does and ignoring how it does its job.
+
 • An algorithm is basically a set of instructions that solve a problem.
 • The time complexity of an algorithm is basically the running time of the
 program as a function of the input size.
+
 • The space complexity of an algorithm is the amount of computer memory
 required during the program execution as a function of the input size.
+
 •  worst-case running time of an algorithm is an upper bound on the
 running time for any input.
+
 • The average-case running time specifies the expected behaviour of the
 algorithm when the input is randomly drawn from a given distribution.
+
 • The efficiency of an algorithm is expressed in terms of the number of
 elements that has to be processed and the type of the loop that is being
 used.
 
 
 **References**
+
 1. https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+   
 2. https://www.codingninjas.com/studio/guided-paths/data-structures-algorithms
+   
 3. https://www.javatpoint.com/data-structure-tutorial
+   
 4. https://www.freecodecamp.org/news/learn-data-structures-and-algorithms/
 
 
 
 ----------------------------------------------
-**Thank you**✨
+**Happy Coding**💻
