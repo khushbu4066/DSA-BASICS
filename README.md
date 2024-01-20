@@ -114,11 +114,14 @@ programming tool that represents the relationship between data elements
 and helps programmers to process the data easily.
 
 **Data structure can be classified into two categories:**
+
 1.3.1 Primitive data structure
+
 1.3.2 Non-primitive data structure
 
+
 **1.3.1 Primitive Data Structure**
->Primitive data structures consist of the numbers and the characters
+> Primitive data structures consist of the numbers and the characters
 > which are built in programs. These can be manipulated or operated
 > directly by the machine level instructions. Basic data types such as
 > integer, real, character, and Boolean come under primitive data
@@ -150,7 +153,7 @@ based on the structure and arrangement of data.
 > insertion and deletion of data is not possible in a linear fashion.
 > Trees and graphs are examples of non-linear data structures.
 >
-> **1. Array**
+**I)  Array**
 >
 > Array, in general, refers to an orderly arrangement of data elements.
 > Array is a type of data structure that stores data elements in
