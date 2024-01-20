@@ -10,7 +10,7 @@
 
 **1.2 BASIC CONCEPT OF DATA STRUCTURE**
 
- Data structure is a branch of computer science. The study of data
+> Data structure is a branch of computer science. The study of data
 > structure helps you to understand how data is organized and how data
 > flow is managed to increase efficiency of any process or program. Data
 > structure is the structural representation of logical relationship
@@ -30,7 +30,6 @@
 > most difficult task for a programmer.
 
 > Following terminology is used as far as data structures are concerned
-
 > **Data:** 
 > Data can be defined as an elementary value or the collection of values, for example, student\'s name and its id are the data about the student.
 
@@ -69,17 +68,17 @@
 
 **Correctness:** 
 > Data structure is designed such that it operates
-correctly for all kinds of input, which is based on the domain of
-interest. In other words, correctness forms the primary goal of data
-structure, which always depends on the specific problems that the data
-structure is intended to solve.
+> correctly for all kinds of input, which is based on the domain of
+> interest. In other words, correctness forms the primary goal of data
+> structure, which always depends on the specific problems that the data
+> structure is intended to solve.
 
 **Efficiency:** 
 > Data structure also needs to be efficient. It should
-process the data at high speed without utilizing much of the computer
-resources such as memory space. In a real time state, the efficiency of
-a data structure is an important factor that determines the success and
-failure of the process.
+> process the data at high speed without utilizing much of the computer
+> resources such as memory space. In a real time state, the efficiency of
+> a data structure is an important factor that determines the success and
+> failure of the process.
 
 **1.2.4 Features of Data Structure**\
 > Some of the important features of data structures are:
@@ -93,19 +92,19 @@ be able to manage both valid and invalid inputs.
 
 > **Adaptability:**
 > Developing software projects such as word processors,
-Web browsers and Internet search engine involves large software systems
-that work or execute correctly and efficiently for many years. Moreover,
-software evolves due to ever changing market conditions or due to
-emerging technologies.
+> Web browsers and Internet search engine involves large software systems
+> that work or execute correctly and efficiently for many years. Moreover,
+> software evolves due to ever changing market conditions or due to
+> emerging technologies.
 
 **Reusability:** Reusability and adaptability go hand-in-hand.
 
-It is a known fact that the programmer requires many resources for
-developing any software, which makes it an expensive enterprise.
-However, if the software is developed in a reusable and adaptable way,
-then it can be implemented in most of the future applications. Thus, by
-implementing quality data structures, it is possible to develop reusable
-software, which tends to be cost effective and time saving.
+> It is a known fact that the programmer requires many resources for
+> developing any software, which makes it an expensive enterprise.
+> However, if the software is developed in a reusable and adaptable way,
+> then it can be implemented in most of the future applications. Thus, by
+> implementing quality data structures, it is possible to develop reusable
+> software, which tends to be cost effective and time saving.
 
 **1.3 CLASSIFICATION OF DATA STRUCTURES**
 
@@ -120,27 +119,27 @@ and helps programmers to process the data easily.
 
 **1.3.1 Primitive Data Structure**
 >Primitive data structures consist of the numbers and the characters
-which are built in programs. These can be manipulated or operated
-directly by the machine level instructions. Basic data types such as
-integer, real, character, and Boolean come under primitive data
-structures. These data types are also known as simple data types because
-they consist of characters that cannot be divided.
+> which are built in programs. These can be manipulated or operated
+> directly by the machine level instructions. Basic data types such as
+> integer, real, character, and Boolean come under primitive data
+> structures. These data types are also known as simple data types because
+> they consist of characters that cannot be divided.
 
 **1.3.2 Non-primitive Data Structure**
 > Non-primitive data structures are those that are derived from primitive
-data structures. These data structures cannot be operated or manipulated
-directly by the machine level instructions. They focus on formation of a
-set of data elements that is either homogeneous (same data type) or
-heterogeneous (different data type).
+> data structures. These data structures cannot be operated or manipulated
+> directly by the machine level instructions. They focus on formation of a
+> set of data elements that is either homogeneous (same data type) or
+> heterogeneous (different data type).
 >
 > These are further divided into linear and non-linear data structure
 based on the structure and arrangement of data.
 
 **1.3.2.1 Linear Data Structure**
 > A data structure that maintains a linear relationship among its elements
-is called a linear data structure. Here, the data is arranged in a
-linear fashion. But in the memory, the arrangement may not be
-sequential.
+> is called a linear data structure. Here, the data is arranged in a
+> linear fashion. But in the memory, the arrangement may not be
+> sequential.
 
 > Ex: Arrays, linked lists, stacks, queues.
 
