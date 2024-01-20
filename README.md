@@ -164,11 +164,11 @@ based on the structure and arrangement of data.
 > When we declare an array, we can assign initial values to each of its
 > elements by enclosing the values in braces { }.
 >
-> **Syntax** int Num [5] = { 26, 7, 67, 50, 66 };
+**Syntax** int Num [5] = { 26, 7, 67, 50, 66 };
 > 
-> Arrays can be classified as one-dimensional array, two-dimensional
-> array or multidimensional array.
->
+Arrays can be classified as one-dimensional array, two-dimensional
+array or multidimensional array.
+
 > **One-dimensional Array:**
 > It has only one row of elements. It is
 > stored in ascending storage location.
@@ -183,7 +183,7 @@ based on the structure and arrangement of data.
 > indices or two dimensions. They can include as many indices as
 > required.
 >
-> **Limitations:**
+**Limitations:**
 > •Arrays are of fixed size.
 > •Data elements are stored in contiguous memory locations which may not
 > be always available.
@@ -197,6 +197,7 @@ However, these limitations can be solved by using linked lists.
 > storage for other data structures\
 > •Storage of binary tree elements of fixed count\
 > •Storage of matrices
+
 
 **II) Linked List**
 
@@ -212,10 +213,6 @@ field contains the actual data and the pointer field contains address of
 the subsequent nodes in the list.
 
 ***Advantage*:** Easier to insert or delete data elements
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image13.png){width="2.4027777777777777in"
-height="2.9100306211723534in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image14.png){width="4.847222222222222in"
-height="4.430555555555555in"}
 
 ***Disadvantage*:** Slow search operation and requires more memory space
 
