@@ -31,29 +31,30 @@
 
 > Following terminology is used as far as data structures are concerned
 
- **Data:** 
- Data can be defined as an elementary value or the collection of values, for example, student\'s name and its id are the data about the student.
+> **Data:** 
+> Data can be defined as an elementary value or the collection of values, for example, student\'s name and its id are the data about the student.
 
-**Group Items:** 
-Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.
+> **Group Items:** 
+> Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.
 
-**Record:** 
-Record can be defined as the collection of various data items, for example, if we talk about the student entity, then its name, address, course and marks can be grouped together to form the record for the student.
-
-**File:** A File is a collection of various records of one type of
-entity, for example, if there are 60 employees in the class, then there
-will be 20 records in the related file where each record contains the
-data about each employee.
-
-**Attribute and Entity:** 
-An entity represents the class of certain objects. it contains various attributes. Each attribute represents the particular property of that entity.
-
-**Field:** 
-Field is a single elementary unit of information representing the attribute of an entity.
+> **Record:** 
+> Record can be defined as the collection of various data items, for example, if we talk about the student entity, then its name, address, course and marks can be grouped > together to form the record for the student.
+>
+> **File:** A File is a collection of various records of one type of
+> entity, for example, if there are 60 employees in the class, then there
+> will be 20 records in the related file where each record contains the
+> data about each employee.
+>
+> **Attribute and Entity:** 
+> An entity represents the class of certain objects. it contains various attributes. Each attribute represents the particular property of that entity.
+>
+> **Field:** 
+> Field is a single elementary unit of information representing the attribute of an entity.
 
 **1.2.2 Need for Data Structure**\
-•It gives different level of organization data.
 
+> •It gives different level of organization data.
+>
 > •It tells how data can be stored and accessed in its elementary level.
 >
 > •Provide operation on group of data, such as adding an item, looking
@@ -64,34 +65,34 @@ Field is a single elementary unit of information representing the attribute of a
 > •Provide fast searching and sorting of data.
 
 **1.2.3 Goals of Data Structure**\
-Data structure basically implements two complementary goals.
+> Data structure basically implements two complementary goals.
 
-**Correctness:** Data structure is designed such that it operates
+**Correctness:** 
+> Data structure is designed such that it operates
 correctly for all kinds of input, which is based on the domain of
 interest. In other words, correctness forms the primary goal of data
 structure, which always depends on the specific problems that the data
 structure is intended to solve.
 
-**Efficiency:** Data structure also needs to be efficient. It should
+**Efficiency:** 
+> Data structure also needs to be efficient. It should
 process the data at high speed without utilizing much of the computer
 resources such as memory space. In a real time state, the efficiency of
 a data structure is an important factor that determines the success and
 failure of the process.
 
 **1.2.4 Features of Data Structure**\
-Some of the important features of data structures are:
-
-**Robustness:** Generally, all computer programmers wish to produce
+> Some of the important features of data structures are:
+>
+> **Robustness:**
+> Generally, all computer programmers wish to produce
 software that generates correct output for every possible input provided
 to it, as well as execute
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image4.png){width="5.347222222222222in"
-height="4.430555555555555in"}
-
 efficiently on all hardware platforms. This kind of robust software must
 be able to manage both valid and invalid inputs.
 
-**Adaptability:** Developing software projects such as word processors,
+> **Adaptability:**
+> Developing software projects such as word processors,
 Web browsers and Internet search engine involves large software systems
 that work or execute correctly and efficiently for many years. Moreover,
 software evolves due to ever changing market conditions or due to
@@ -113,40 +114,30 @@ associated with each other in different ways. It forms a basis of
 programming tool that represents the relationship between data elements
 and helps programmers to process the data easily.
 
-Data structure can be classified into two categories: 1.3.1 Primitive
-data structure\
+**Data structure can be classified into two categories:**
+1.3.1 Primitive data structure
 1.3.2 Non-primitive data structure
 
-Figure 1.1shows the different classifications of data structures.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image5.png){width="3.763888888888889in"
-height="2.5416666666666665in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image6.png){width="5.131944444444445in"
-height="3.6933398950131235in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image7.png){width="4.958333333333333in"
-height="3.6666666666666665in"}
-
-**Figure 1.1 Classifications of data structures.**
-
 **1.3.1 Primitive Data Structure**
-
-Primitive data structures consist of the numbers and the characters
+>Primitive data structures consist of the numbers and the characters
 which are built in programs. These can be manipulated or operated
 directly by the machine level instructions. Basic data types such as
 integer, real, character, and Boolean come under primitive data
 structures. These data types are also known as simple data types because
 they consist of characters that cannot be divided.
 
-**1.3.2 Non-primitive Data Structure**\
-Non-primitive data structures are those that are derived from primitive
+**1.3.2 Non-primitive Data Structure**
+> Non-primitive data structures are those that are derived from primitive
 data structures. These data structures cannot be operated or manipulated
 directly by the machine level instructions. They focus on formation of a
 set of data elements that is either homogeneous (same data type) or
 heterogeneous (different data type).
-
-These are further divided into linear and non-linear data structure
+>
+> These are further divided into linear and non-linear data structure
 based on the structure and arrangement of data.
 
 **1.3.2.1 Linear Data Structure**
-A data structure that maintains a linear relationship among its elements
+> A data structure that maintains a linear relationship among its elements
 is called a linear data structure. Here, the data is arranged in a
 linear fashion. But in the memory, the arrangement may not be
 sequential.
@@ -160,7 +151,7 @@ sequential.
 > insertion and deletion of data is not possible in a linear fashion.
 > Trees and graphs are examples of non-linear data structures.
 >
-> **[I) Array]{.underline}**
+> **1. Array**
 >
 > Array, in general, refers to an orderly arrangement of data elements.
 > Array is a type of data structure that stores data elements in
@@ -171,122 +162,43 @@ sequential.
 > When we declare an array, we can assign initial values to each of its
 > elements by enclosing the values in braces { }.
 >
-> int Num \[5\] = { 26, 7, 67, 50, 66 };
-
-+-------------+-------------+-------------+-------------+-------------+
-| > This      |             |             |             |             |
-| >           |             |             |             |             |
-| declaration |             |             |             |             |
-| > will      |             |             |             |             |
-| > create an |             |             |             |             |
-| > array as  |             |             |             |             |
-| > shown     |             |             |             |             |
-| > below:    |             |             |             |             |
-| >           |             |             |             |             |
-| > 0 1 2 3 4 |             |             |             |             |
-+=============+=============+=============+=============+=============+
-| Num 26      | 7           | 67          | 50          | > 66        |
-+-------------+-------------+-------------+-------------+-------------+
-| > **Figure  |             |             |             |             |
-| > 1.2       |             |             |             |             |
-| > Array**\  |             |             |             |             |
-| > The       |             |             |             |             |
-| > number of |             |             |             |             |
-| > values    |             |             |             |             |
-| > inside    |             |             |             |             |
-| > braces {  |             |             |             |             |
-| > } should  |             |             |             |             |
-| > be equal  |             |             |             |             |
-| > to the    |             |             |             |             |
-| > number of |             |             |             |             |
-| > elements  |             |             |             |             |
-| > that we   |             |             |             |             |
-| > declare   |             |             |             |             |
-| > for the   |             |             |             |             |
-| > array     |             |             |             |             |
-| > inside    |             |             |             |             |
-| > the       |             |             |             |             |
-| > square    |             |             |             |             |
-| > brackets  |             |             |             |             |
-| > \[ \]. In |             |             |             |             |
-| > the       |             |             |             |             |
-| > example   |             |             |             |             |
-| > of array  |             |             |             |             |
-| > Paul, we  |             |             |             |             |
-| > have      |             |             |             |             |
-| > declared  |             |             |             |             |
-| > 5         |             |             |             |             |
-| > elements  |             |             |             |             |
-| > and in    |             |             |             |             |
-| > the list  |             |             |             |             |
-| > of        |             |             |             |             |
-| > initial   |             |             |             |             |
-| > values    |             |             |             |             |
-| > within    |             |             |             |             |
-| > braces {  |             |             |             |             |
-| > } we have |             |             |             |             |
-| > specified |             |             |             |             |
-| > 5 values, |             |             |             |             |
-| > one for   |             |             |             |             |
-| > each      |             |             |             |             |
-| > element.  |             |             |             |             |
-| > After     |             |             |             |             |
-| > this      |             |             |             |             |
-| > d         |             |             |             |             |
-| eclaration, |             |             |             |             |
-| > array     |             |             |             |             |
-| > Paul will |             |             |             |             |
-| > have five |             |             |             |             |
-| > integers, |             |             |             |             |
-| > as we     |             |             |             |             |
-| > have      |             |             |             |             |
-| > provided  |             |             |             |             |
-| > 5         |             |             |             |             |
-| > ini       |             |             |             |             |
-| tialization |             |             |             |             |
-| > values.   |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-
+> **Syntax** int Num [5] = { 26, 7, 67, 50, 66 };
+> 
 > Arrays can be classified as one-dimensional array, two-dimensional
 > array or multidimensional array.
 >
-> ***One-dimensional Array*:**It has only one row of elements. It is
+> **One-dimensional Array:**
+> It has only one row of elements. It is
 > stored in ascending storage location.
 >
-> ***Two-dimensional Array:*** It consists of multiple rows and columns
+> ***Two-dimensional Array:***
+> It consists of multiple rows and columns
 > of data elements. It is alsocalled as a matrix.
 >
-> ***Multidimensional Array:*** Multidimensional arrays can be defined
+> ***Multidimensional Array:***
+> Multidimensional arrays can be defined
 > as array of arrays.Multidimensional arrays are not bounded to two
 > indices or two dimensions. They can include as many indices as
 > required.
 >
-> **Limitations:**\
+> **Limitations:**
 > •Arrays are of fixed size.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image9.png){width="5.347222222222222in"
-height="3.013888888888889in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image10.png){width="5.104166666666667in"
-height="1.8854166666666667in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image11.png){width="5.555555555555555e-2in"
-height="6.944444444444445e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image12.png){width="4.1666666666666664e-2in"
-height="4.1666666666666664e-2in"}
-
 > •Data elements are stored in contiguous memory locations which may not
 > be always available.
->
 > •Insertion and deletion of elements can be problematic because of
 > shifting of elements from their positions.
 
 However, these limitations can be solved by using linked lists.
 
-**Applications:**\
-•Storing list of data elements belonging to same data type •Auxiliary
-storage for other data structures\
-•Storage of binary tree elements of fixed count\
-•Storage of matrices
+**Applications:**
+> •Storing list of data elements belonging to same data type •Auxiliary
+> storage for other data structures\
+> •Storage of binary tree elements of fixed count\
+> •Storage of matrices
 
 **II) Linked List**
 
-A linked list is a data structure in which each data element contains a
+> A linked list is a data structure in which each data element contains a
 pointer or link to the next element in the list. Through linked list,
 insertion and deletion of the data element is possible at all places of
 a linear list. Also in linked list, it is not necessary to have the data
@@ -297,14 +209,6 @@ list contains information field and a pointer field. The information
 field contains the actual data and the pointer field contains address of
 the subsequent nodes in the list.
 
-**Figure 1.3: A Linked List**
-
-Figure 1.3 represents a linked list with 4 nodes. Each node has two
-parts. The left part in the node represents the information part which
-contains an entire record of data items and the right part represents
-the pointer to the next node. The pointer of the last node contains a
-null pointer.
-
 ***Advantage*:** Easier to insert or delete data elements
 
 ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image13.png){width="2.4027777777777777in"
@@ -313,10 +217,10 @@ height="4.430555555555555in"}
 
 ***Disadvantage*:** Slow search operation and requires more memory space
 
-**Applications:**\
-•Implementing stacks, queues, binary trees and graphs of predefined
+**Applications:**
+> •Implementing stacks, queues, binary trees and graphs of predefined
 size.
-
+> 
 > •Implement dynamic memory management functions of operating system.
 >
 > •Polynomial implementation for mathematical operations\
@@ -339,27 +243,8 @@ size.
 > the last element which is added to the stack is the first element
 > which is deleted from the stack.
 
-**Figure 1.4: A Stack**
-
-In the computer's memory, stacks can be implemented using arrays or
-linked lists. Figure 1.4 is a schematic diagram of a stack. Here,
-element FF is the top of the stack and element AA is the bottom of the
-stack. Elements are added to the stack from the top. Since it follows
-LIFO pattern, EE cannot be deleted before FF is deleted, and similarly
-DD cannot be deleted before EE is deleted and so on.
-
 **Applications:**\
-•Temporary storage structure for recursive operations
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image16.png){width="4.388888888888889in"
-height="2.6944444444444446in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image17.png){width="5.555555555555555e-2in"
-height="5.555555555555555e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image18.png){width="4.1666666666666664e-2in"
-height="5.555555555555555e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image19.png){width="0.1527777777777778in"
-height="0.1111111111111111in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image20.png){width="0.1527777777777778in"
-height="0.1111111111111111in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image21.png){width="0.1527777777777778in"
-height="0.1111111111111111in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image22.png){width="5.580555555555556in"
-height="0.8690332458442694in"}
-
+> •Temporary storage structure for recursive operation.
 > •Auxiliary storage structure for nested operations, function calls,\
 > deferred/postponed functions\
 > •Manage function calls\
@@ -369,9 +254,7 @@ height="0.8690332458442694in"}
 > •Matching of parenthesis\
 > •String reversal\
 > •In all the problems solutions based on backtracking.
->
 > •Used in depth first search in graph and tree traversal.
->
 > •Operating System functions\
 > •UNDO and REDO functions in an editor.
 
@@ -382,31 +265,17 @@ height="0.8690332458442694in"}
 > elements in a queue are added at one end called the rear and removed
 > from the other end called the front. Like stacks, queues can be
 > implemented by using either arrays or linked lists.
->
-> Figure 1.5 shows a queue with 4 elements, where 55 is the front
-> element and 65 is the rear element. Elements can be added from the
-> rear and deleted from the front.
->
-> ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image15.png){width="5.555555555555555e-2in"
-> height="1.3888888888888888e-2in"}
 
-**Figure 1.5: A Queue**
-
-**Applications:**\
-•It is used in breadth search operation in graphs.
-
+**Applications:**
+> •It is used in breadth search operation in graphs.
 > •Job scheduler operations of OS like a print buffer queue, keyboard
 > buffer queue to store the keys pressed by users\
 > •Job scheduling, CPU scheduling, Disk Scheduling\
 > •Priority queues are used in file downloading operations in a browser\
 > •Data transfer between peripheral devices and CPU.
->
 > •Interrupts generated by the user applications for CPU •Calls handled
 > by the customers in BPO
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image23.png){width="2.1999989063867016in"
-height="1.6476181102362204in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image24.png){width="4.847222222222222in"
-height="4.513888888888889in"}
 
 **V) Trees**\
 A tree is a non-linear data structure in which data is organized in
@@ -418,15 +287,13 @@ imposes a hierarchical structure on the data elements.
 > of the node 60. The nodes 6, 4, 12 and 67 are the terminal nodes as
 > they do not have any successors.
 
-**Figure 1.6: A Tree**
-
 **Advantage:** Provides quick search, insert, and delete operations
 **Disadvantage:** Complicated deletion algorithm
 
-**Applications:**\
-•Implementing the hierarchical structures in computer systems like
+**Applications:**
+> •Implementing the hierarchical structures in computer systems like
 directory and file system.
-
+> 
 > •Implementing the navigation structure of a website.
 >
 > •Code generation like Huffman's code.
@@ -443,137 +310,99 @@ directory and file system.
 
 **VI) Graphs**
 
-A graph is also a non-linear data structure. In a tree data structure,
+> A graph is also a non-linear data structure. In a tree data structure,
 all data elements are stored in definite hierarchical structure. In
 other words, each node has only one parent node. While in graphs, each
-data element is called a
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image25.png){width="2.6277777777777778in"
-height="1.5454451006124235in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image26.png){width="4.847222222222222in"
-height="4.805555555555555in"}
-
-vertex and is connected to many other vertexes through connections
+data element is called a vertex and is connected to many other vertexes through connections
 called edges.
-
 Thus, a graph is considered as a mathematical structure, which is
-composed of a set of vertexes and a set of edges. Figure shows a graph
-with six nodes A, B, C, D, E, F and seven edges \[A, B\], \[A, C\], \[A,
-D\], \[B, C\], \[C, F\], \[D, F\] and \[D, E\].
-
-**Figure 1.7 Graph**
+composed of a set of vertexes and a set of edges. 
 
 **Advantage:** Best models real-world situations\
 **Disadvantage:** Some algorithms are slow and very complex
 
-**Applications:**\
-•Representing networks and routes in communication, transportation and
+**Applications:**
+> •Representing networks and routes in communication, transportation and
 travel applications\
-•Routes in GPS\
-•Interconnections in social networks and other network-based
+> •Routes in GPS\
+> •Interconnections in social networks and other network-based
 applications •Mapping applications\
-•Ecommerce applications to present user preferences\
-•Utility networks to identify the problems posed to municipal or local
+> •Ecommerce applications to present user preferences\
+> •Utility networks to identify the problems posed to municipal or local
 corporations •Resource utilization and availability in an organization\
-•Document link map of a website to display connectivity between pages
+> •Document link map of a website to display connectivity between pages
 through hyperlinks\
-•Robotic motion and neural networks
+> •Robotic motion and neural networks
 
-**[1.4 STATIC DATA STRUCTURE VS DYNAMIC DATA STRUCTURE]{.underline}**
+**1.4 STATIC DATA STRUCTURE VS DYNAMIC DATA STRUCTURE**
 
-is a way of storing and organising data efficiently such that the
+> It is a way of storing and organising data efficiently such that the
 required hem can be performed be efficient with respect to time as well
 as memory. Simply, Data Structure are used to reduce complexity (mostly
 the time complexity) of the code.
 
-> Data structures can be two types:\
-> 1. Static Data Structure\
+> Data structures can be two types:
+> 1. Static Data Structure
 > 2. Dynamic Data Structure
-> ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image28.png){width="3.0972222222222223in"
-> height="0.9444444444444444in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image29.png){width="9.722222222222222e-2in"
-> height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image30.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image31.png){width="0.1388888888888889in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image32.png){width="4.166666666666667in"
-> height="1.217623578302712in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image33.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image34.png){width="0.1388888888888889in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image35.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image36.png){width="0.1388888888888889in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image37.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image38.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image39.png){width="0.125in"
-> height="9.722222222222222e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image40.png){width="4.166666666666667in"
-> height="0.927755905511811in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image41.png){width="3.5555555555555554in"
-> height="0.6666666666666666in"}
->
-> **What is a Static Data structure?**
->
+
+**What is a Static Data structure?**
+
 > In Static data structure the size of the structure is fixed. The
 > content of the data structure can be modified but without changing the
 > memory space allocated to it.
 
-+-----------------------------------+-----------------------------------+
-| Example of Static Data            | > ![](vertopal_0072da1cf7c948     |
-| Structures:                       | 3f82278d62c70a24bd/media/image27. |
-|                                   | png){width="0.3055555555555556in" |
-|                                   | >                                 |
-|                                   | height="1.3888888888888888e-2in"} |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
 > **What is Dynamic Data Structure?**
->
+
 > In Dynamic data structure the size of the structure in not fixed and
 > can be modified during the operations performed on it. Dynamic data
 > structures are designed to facilitate change of data structures in the
 > run time.
->
+
 > Example of Dynamic Data Structures:
->
-> **Static Data Structure vs Dynamic Data Structure**\
+
+> **Static Data Structure vs Dynamic Data Structure**
 > Static Data structure has fixed memory size whereas in Dynamic Data
 > Structure, the size can be randomly updated during run time which may
 > be considered efficient with respect to memory complexity of the code.
 > Static Data Structure provides more easier access to elements with
 > respect to dynamic data structure. Unlike static data structures,
 > dynamic data structures are flexible.
->
-> **1.5 OPERATIONS ON DATA STRUCTURES**
->
+
+
+**1.5 OPERATIONS ON DATA STRUCTURES**
+
 > This section discusses the different operations that can be performed
 > on the various data structures previously mentioned.
 >
 > ***Traversing*** It means to access each data item exactly once so
 > that it can be processed. Forexample, to print the names of all the
 > students in a class.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
-
-***Searching*** It is used to find the location of one or more data
-items that satisfy the given constraint.Such a data item may or may not
-be present in the given collection of data items. For example, to find
-the names of all the students who secured 100 marks in mathematics.
-
-***Inserting*** It is used to add new data items to the given list of
-data items. For example, to addthe details of a new student who has
-recently joined the course.
-
-***Deleting*** It means to remove (delete) a particular data item from
-the given collection of dataitems. For example, to delete the name of a
-student who has left the course.
-
-***Sorting*** Data items can be arranged in some order like ascending
-order or descending order depending on the type of application. For
-example, arranging the names of students in a class in an alphabetical
-order, or calculating the top three winners by arranging the
-participants' scores in descending order and then extracting the top
-three.
-
-***Merging*** Lists of two sorted data items can be combined to form a
-single list of sorted data items.
+>
+> ***Searching*** It is used to find the location of one or more data
+> items that satisfy the given constraint.Such a data item may or may not
+> be present in the given collection of data items. For example, to find
+> the names of all the students who secured 100 marks in mathematics.
+>
+> ***Inserting*** It is used to add new data items to the given list of
+> data items. For example, to addthe details of a new student who has
+> recently joined the course.
+>
+> ***Deleting*** It means to remove (delete) a particular data item from
+> the given collection of dataitems. For example, to delete the name of a
+> student who has left the course.
+>
+> ***Sorting*** Data items can be arranged in some order like ascending
+> order or descending order depending on the type of application. For
+> example, arranging the names of students in a class in an alphabetical
+> order, or calculating the top three winners by arranging the
+> participants' scores in descending order and then extracting the top three.
+>
+> ***Merging*** Lists of two sorted data items can be combined to form a
+> single list of sorted data items.
 
 **1.6 ABSTRACT DATA TYPE**
 
-According to National Institute of Standards and Technology (NIST), a
+> According to National Institute of Standards and Technology (NIST), a
 data structure is an organization of information, usually in the memory,
 for better algorithm efficiency. Data structures include queues, stacks,
 linked lists, dictionary, and trees. They could also be a conceptual
@@ -597,10 +426,7 @@ An implementation of ADT consists of storage structures to store the
 data items and algorithms for basic operation. All the data structures
 i.e. array, linked list, stack, queue etc are examples of ADT.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image43.png){width="5.347222222222222in"
-height="4.416666666666667in"}
-
-> **Advantage of using ADTs**\
+> **Advantage of using ADTs**
 > In the real world, programs *evolve* as a result of new requirements
 > or constraints, so a modification to a program commonly requires a
 > change in one or more of its data structures. For example, if you want
@@ -614,8 +440,9 @@ height="4.416666666666667in"}
 > use of a data structure from the details of its implementation. This
 > is the principle underlying the use of abstract data types.
 >
-> **1.7 ALGORITHM**
->
+
+ **1.7 ALGORITHM**
+
 > Algorithm is a step-by-step procedure, which defines a set of
 > instructions to be executed in a certain order to get the desired
 > output. Algorithms are generally created independent of underlying
@@ -637,126 +464,63 @@ height="4.416666666666667in"}
 > •**Delete** − Algorithm to delete an existing item from a data
 > structure.
 >
-> **1.7.1 Characteristics of an Algorithm**
+
+**1.7.1 Characteristics of an Algorithm**
 >
 > Not all procedures can be called an algorithm. An algorithm should
 > have the following characteristics −
 >
 > An algorithm should have the following characteristics −
 
-+-----------------------------------+-----------------------------------+
-| •\                                | > **Clear and Unambiguous**:      |
-| •\                                | > Algorithm should be clear and   |
-| •\                                | > unambiguous. Each of its steps  |
-| •                                 | > should be clear in all aspects  |
-|                                   | > and must lead to only one       |
-|                                   | > meaning.                        |
-|                                   | >                                 |
-|                                   | > **Well-Defined Inputs**: If an  |
-|                                   | > algorithm says to take inputs,  |
-|                                   | > it should be well-defined       |
-|                                   | > inputs.                         |
-|                                   | >                                 |
-|                                   | > **Well-Defined Outputs:** The   |
-|                                   | > algorithm must clearly define   |
-|                                   | > what output will be yielded and |
-|                                   | > it should be well-defined as    |
-|                                   | > well.                           |
-|                                   | >                                 |
-|                                   | > **Finite-ness:** The algorithm  |
-|                                   | > must be finite, i.e. it should  |
-|                                   | > not end up in an infinite loops |
-|                                   | > or similar.                     |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+**Clear and Unambiguous**: Algorithm should be clear and unambiguous. Each of its steps should be clear in all aspects and must lead to only one meaning. 
+**Well-Defined Inputs**: If an algorithm says to take inputs, it should be well-defined inputs.  
+**Well-Defined Outputs:** The algorithm must clearly define what output will be yielded and it should be well-defined as well.                           
+**Finite-ness:** The algorithm must be finite, i.e. it should not end up in an infinite loops or similar. 
+**Feasible:**
+**Language Independent:**
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image45.png){width="0.7222222222222222in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image46.png){width="0.8194444444444444in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image47.png){width="2.5694444444444446in"
-height="1.5416666666666667in"}
+**1.7.2 Advantages and Disadvantages of Algorithm**
 
-+-----------------------------------+-----------------------------------+
-| > •                               | > **Feasible:** The algorithm     |
-| >                                 | > must be simple, generic and     |
-| > •                               | > practical, such that it can be  |
-|                                   | > executed upon will the          |
-|                                   | > available resources. It must    |
-|                                   | > not contain some future         |
-|                                   | > technology, or anything.        |
-|                                   | >                                 |
-|                                   | > **Language Independent:** The   |
-|                                   | > Algorithm designed must be      |
-|                                   | > language-\                      |
-|                                   | > independent, i.e. it must be    |
-|                                   | > just plain instructions that    |
-|                                   | > can be implemented in any       |
-|                                   | > language, and yet the output    |
-|                                   | > will be same, as expected.      |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+> • It is easy to understand.                                         
+>                                                                     
+> • Algorithm is a step-wise representation of a solution to a given  
+> problem.                                                            
+>                                                                     
+> • In Algorithm the problem is broken down into smaller pieces or    
+> steps hence, it                                                     
+>                                                                     
+> is easier for the programmer to convert it into an actual program.  
 
-> **1.7.2 Advantages and Disadvantages of Algorithm**
 
-+-----------------------------------------------------------------------+
-| > **Advantages of Algorithms:**                                       |
-|                                                                       |
-| ![](vertopal_0072da1cf7c                                              |
-| 9483f82278d62c70a24bd/media/image44.png){width="0.5277777777777778in" |
-| height="0.2361111111111111in"}                                        |
-|                                                                       |
-| > • It is easy to understand.                                         |
-| >                                                                     |
-| > • Algorithm is a step-wise representation of a solution to a given  |
-| > problem.                                                            |
-| >                                                                     |
-| > • In Algorithm the problem is broken down into smaller pieces or    |
-| > steps hence, it                                                     |
-| >                                                                     |
-| > is easier for the programmer to convert it into an actual program.  |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+**Disadvantages of Algorithms:**
 
-> **Disadvantages of Algorithms:**
-
-+-----------------------------------+-----------------------------------+
-| > •\                              | > Writing an algorithm takes a    |
-| > •                               | > long time so it is              |
-|                                   | > time-consuming.                 |
-|                                   | >                                 |
-|                                   | > Branching and Looping           |
-|                                   | > statements are difficult to     |
-|                                   | > show in Algorithms.             |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-> **1.7.3 Different approach to design an algorithm**
+>Writing an algorithm takes long time so it is time consuming.
 >
-> 1\. **Top-Down Approach:** A top-down approach starts with identifying
-> major\
-> components of system or program decomposing them into their lower
+>Branching and looping statements are difficult to show in algorithm.
+
+
+**1.7.3 Different approach to design an algorithm**
+>
+> 1. **Top-Down Approach:** A top-down approach starts with identifying
+> major components of system or program decomposing them into their lower
 > level components & iterating until desired level of module complexity
 > is achieved . In this we start with topmost module & incrementally add
 > modules that is calls.
 >
-> 2\. **Bottom-Up Approach:** A bottom-up approach starts with designing
+> 2. **Bottom-Up Approach:** A bottom-up approach starts with designing
 > most basic or primitive component & proceeds to higher level
 > components. Starting from very bottom , operations that provide layer
 > of abstraction are implemented
 >
-> **1.7.4 How to Write an Algorithm?**
+
+**1.7.4 How to Write an Algorithm?**
 >
 > There are no well-defined standards for writing algorithms. Rather, it
 > is problem and resource dependent. Algorithms are never written to
 > support a particular programming code.
->
 > As we know that all programming languages share basic code constructs
 > like loops (do, for, while), flow-control (if-else), etc. These common
 > constructs can be used to write an algorithm.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image48.png){width="1.8902777777777777in"
-height="1.8971511373578303in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image49.png){width="4.847222222222222in"
-height="5.916666666666667in"}
-
 > We write algorithms in a step-by-step manner, but it is not always the
 > case. Algorithm writing is a process and is executed after the problem
 > domain is well-defined. That is, we should know the problem domain,
@@ -766,24 +530,24 @@ height="5.916666666666667in"}
 
 > Let\'s try to learn algorithm-writing by using an example.
 >
-> **Problem** − Design an algorithm to add two numbers and display the
+**Problem** − Design an algorithm to add two numbers and display the
 > result.
 
 **Step 1** − START\
-**Step 2** − declare three integers **a**, **b** & **c**\
-**Step 3** − define values of **a** & **b**\
-**Step 4** − add values of **a** & **b**\
-**Step 5** − store output of step 4 to **c**\
-**Step 6** − print **c**\
+**Step 2** − declare three integers **a**, **b** & **c**
+**Step 3** − define values of **a** & **b**
+**Step 4** − add values of **a** & **b**
+**Step 5** − store output of step 4 to **c**
+**Step 6** − print **c**
 **Step 7** − STOP
 
 > Algorithms tell the programmers how to code the program.
 > Alternatively, the algorithm can be written as −
 
-**Step 1** − START ADD\
-**Step 2** − get values of **a** & **b**\
-**Step 3** − c ← a + b\
-**Step 4** − display c\
+**Step 1** − START ADD
+**Step 2** − get values of **a** & **b**
+**Step 3** − c ← a + b
+**Step 4** − display c
 **Step 5** − STOP
 
 > In design and analysis of algorithms, usually the second method is
@@ -800,11 +564,8 @@ height="5.916666666666667in"}
 > The next step is to analyze those proposed solution algorithms and
 > implement the best suitable solution.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
 
-> **1.8 ALGORITHM COMPLEXITY**
->
+**1.8 ALGORITHM COMPLEXITY**
 > Suppose **X** is an algorithm and **n** is the size of input data, the
 > time and space used by the algorithm X are the two main factors, which
 > decide the efficiency of X.
@@ -819,7 +580,8 @@ height="4.430555555555555in"}
 > the storage space required by the algorithm in terms of **n** as the
 > size of input data.
 >
-> **1.8.1 Space Complexity**
+
+**1.8.1 Space Complexity**
 >
 > Space complexity of an algorithm represents the amount of memory space
 > required by the algorithm in its life cycle. The space required by an
@@ -839,31 +601,31 @@ depends on instance characteristic I.
 
 > Following is a simple example that tries to explain the concept −
 
-Algorithm: SUM(A, B)\
-Step 1 - START\
-Step 2 - C ← A + B + 10\
-Step 3 - Stop
+**Algorithm:**
+> SUM(A, B)
+> Step 1 - START
+> Step 2 - C ← A + B + 10
+> Step 3 - Stop
 
 > Here we have three variables A, B, and C and one constant. Hence S(P)
 > = 1 + 3. Now, space depends on data types of given variables and
 > constant types and it will be multiplied accordingly.
->
-> **1.8.2 Time Complexity**
+
+**1.8.2 Time Complexity**
 >
 > Time complexity of an algorithm represents the amount of time required
 > by the algorithm to run to completion. Time requirements can be
 > defined as a numerical function T(n), where T(n) can be measured as
 > the number of steps, provided each step consumes constant time.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
 
 > For example, addition of two n-bit integers takes **n** steps.
 > Consequently, the total computational time is T(n) = c ∗ n, where c is
 > the time taken for the addition of two bits. Here, we observe that
 > T(n) grows linearly as the input size increases.
->
-> **1.9 ALGORITHM ANALYSIS**
+
+
+ **1.9 ALGORITHM ANALYSIS**
 >
 > Efficiency of an algorithm can be analyzed at two different stages,
 > before implementation and after implementation. They are the following
@@ -909,9 +671,6 @@ For such algorithms, we need to differentiate between the worst case,
 average case and best case efficiencies.
 
 **1.9.1.1 Best Case Analysis**
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image50.png){width="5.347222222222222in"
-height="4.430555555555555in"}
 
 If an algorithm takes the least amount of time to execute a specific set
 of input, then it is called the best case time complexity. The best case
@@ -974,56 +733,36 @@ time complexity.
 **1.10.1.1 Big-O Notation**
 
 'O' is the representation for Big-O notation. Big -O is the method used
-to express the
+to express the upper bound of the running time of an algorithm. It is used to describe
+the performance or time complexity of the algorithm. Big-O specifically describes the
+worst-case scenario and can be used to describe the execution time required or the space
+used by the algorithm.
 
-upper bound of the running time of an algorithm. It is used to describe
-the performance or
 
-time complexity of the algorithm. Big-O specifically describes the
-worst-case scenario
-
-and can be used to describe the execution time required or the space
-used by the
-
-algorithm.
-
-Table 2.1 gives some names and examples of the common orders used to
-
-describe functions. These orders are ranked from top to bottom.
-
-**Table 2.1: Common Orders**
-
-> **Time complexity** **Examples**
+ **Time complexity** **Examples**
 >
-> 1 O(1) Constant Adding to the front of a linked list
+> **1. O(1)** -> Constant  -> Adding to the front of a linked list
 >
-> 2 O(log n) Logarithmic Finding an entry in a sorted array
+> **2. O(log n)** -> Logarithmic -> Finding an entry in a sorted array
 >
-> 3 O(n) Linear Finding an entry in an unsorted array
+> **3. O(n)** -> Linear-> Finding an entry in an unsorted array
 >
-> 4 O(n log n) Linearithmic Sorting 'n' items by 'divide-and-conquer'
+> **4. O(n log n)** -> Linearithmic -> Sorting 'n' items by 'divide-and-conquer'
 >
-> 5 O(n2) Quadratic Shortest path between two nodes in a graph
+> **5.  O(n2)** -> Quadratic -> Shortest path between two nodes in a graph
 >
-> 6 O(n3) Cubic Simultaneous linear equations
+> **6. O(n3)** -> Cubic -> Simultaneous linear equations
 >
-> 7 O(2n) Exponential The Towers of Hanoi problem
+> **7. O(2n)** -> Exponential -> The Towers of Hanoi problem
 
 Big-O notation is generally used to express an ordering property among
-the
-
-functions. This notation helps in calculating the maximum amount of time
-
-taken by an algorithm to compute a problem. Big-O is defined as:
+the functions. This notation helps in calculating the maximum amount of time taken by an algorithm to compute a problem. Big-O is defined as:
 
 f(n) ≤ c ∗ g(n)
 
 where, **n** can be any number of inputs or outputs and **f*(*n)** as
-well as **g*(*n*)*** are
-
-two non-negative functions. These functions are true only if there is a
+well as **g*(*n*)*** are two non-negative functions. These functions are true only if there is a
 constant
-
 **c** and a non-negative integer **n0** such that,
 
 n ≥ n0.
@@ -1039,9 +778,6 @@ where
 
 the running time increases considerably when **n** increases**.**
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image52.png){width="5.756944444444445in"
-height="1.9537139107611547in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image53.png){width="5.777777777777778in"
-height="4.611111111111111in"}
 
 **Example:** Consider f(n)=15n3+40n2+2nlog n+2n. As the value of **n**
 increases, n3 becomes much larger than n2, nlog n, and n. Hence, it
@@ -1060,30 +796,27 @@ Consider function f(n) = 2(n)+2 and g(n) = n2.
 
 We need to find the constant c such that f(n) ≤ c ∗ g(n).
 
-Let n = 1, then\
+Let n = 1, then
 f(n) = 2(n)+2 = 2(1)+2 = 4
 
-g(n) = n2 = 12 = 1\
-Here, f(n)\>g(n)\
-Let n = 2, then\
-f(n) = 2(n)+2 = 2(2)+2 = 6\
+g(n) = n2 = 12 = 1
+Here, f(n) > g(n)
+Let n = 2, then,
+f(n) = 2(n)+2 = 2(2)+2 = 6
 g(n) = n2 = 22 = 4
 
-Here, f(n)\>g(n)\
-Let n = 3, then\
-f(n) = 2(n)+2 = 2(3)+2 = 8\
-g(n) = n2 = 32 = 9\
-Here, f(n)\<g(n)
+Here, f(n) > g(n)
+Let n = 3, then
+f(n) = 2(n)+2 = 2(3)+2 = 8
+g(n) = n2 = 32 = 9
+Here, f(n) < g(n)
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
-
-Thus, when n is greater than 2, we get f(n)\<g(n). In other words, as
+Thus, when n is greater than 2, we get f(n) < g(n). In other words, as
 **n** becomes larger, the running time increases considerably. This
 concludes that the Big-O helps to determine the 'upper bound' of the
 algorithm's run-time.
 
-**Limitations of Big O Notation**\
+**Limitations of Big O Notation**
 There are certain limitations with the Big O notation of expressing the
 complexity of algorithms. These limitations are as follows:\
 •Many algorithms are simply too hard to analyse mathematically.
@@ -1113,7 +846,7 @@ f(n) ≥ c ∗ g(n)
 Where, **n** is any number of inputs or outputs and **f(n)** and
 **g(n)** are two non-negative functions. These functions are true only
 if there is a constant **c** and a non-negative integer **n0** such that
-n\>n0.
+n>n0.
 
 Omega can also be denoted as f(n) = Ώ (g(n)) where, **f** of **n** is
 equal to Omega of **g** of **n***.* The graphical representation of f(n)
@@ -1123,47 +856,35 @@ in Ώ (g(n)), if **f(n)** is bounded below by some constant multiple of
 positive constant **c** and some non-negative integer **n0,** such that
 f(n) ≥ c ∗ g(n) for all n ≥n0.
 
-Figure 2.2 shows Omega notation.
-
-**Figure 1.9 Omega Notation f(n) = Ώ (g(n))**
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image54.png){width="5.756944444444445in"
-height="2.3444564741907263in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image55.png){width="5.777777777777778in"
-height="6.527777777777778in"}
-
 Let us take an example to understand the Omega notation more clearly.
 
-**Example:**\
+**Example:**
 Consider function f(n) = 2n2+5 and g(n) = 7n.
 
 We need to find the constant c such that f(n) ≥ c ∗ g(n).
 
-Let n = 0, then\
-f(n) = 2n2+5 = 2(0)2+5 = 5\
-g(n) = 7(n) = 7(0) = 0\
-Here, f(n)\>g(n)\
+Let n = 0, then,
+f(n) = 2n2+5 = 2(0)2+5 = 5
+g(n) = 7(n) = 7(0) = 0
+Here, f(n) > g(n)
 Let n = 1, then
 
-f(n) = 2n2+5 = 2(1)2+5 = 7 g(n) = 7(n) = 7(1) = 7\
-Here, f(n)=g(n)\
-Let n = 2, then\
+f(n) = 2n2+5 = 2(1)2+5 = 7 g(n) = 7(n) = 7(1) = 7
+Here, f(n)=g(n)
+Let n = 2, then
 f(n) = 2n2+5 = 2(2)2+5 = 13
 
-> g(n) = 7(n) = 7(2) = 14\
-> Here, f(n)\<g(n)
+> g(n) = 7(n) = 7(2) = 14
+> Here, f(n) < g(n)
 
 Thus, for n=1, we get f(n) ≥ c ∗ g(n). This concludes that Omega helps
 to determine the \"lower bound\" of the algorithm\'s run-time.
 
 **1.10.1.3 Theta Notation**
 
-\'θ\' is the representation for Theta notation. Theta notation is used
+**'θ'** is the representation for Theta notation. Theta notation is used
 when the upper bound and lower bound of an algorithm are in the same
 order of magnitude. Theta can be defined as:
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image56.png){width="5.756944444444445in"
-height="2.756038932633421in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image57.png){width="5.763888888888889in"
-height="4.430555555555555in"}
 
 > c1 ∗ g(n) ≤ f(n) ≤ c2 ∗ g(n) for all n\>n0
 
@@ -1189,26 +910,22 @@ non-negative integer **n0,** such that C2g(n)≤f(n)≤ C1g(n) for all n≥n0.
 **Example:** Consider function f(n) = 4n + 3 and g(n) = 4n for all n ≥
 3; and f(n) = 4n + 3 and g(n) = 5n for all n ≥ 3.
 
-> Then the result of the function will be:\
-> Let n = 3\
-> f(n) = 4n + 3 = 4(3)+3 = 15\
+> Then the result of the function will be:
+> Let n = 3
+> f(n) = 4n + 3 = 4(3)+3 = 15
 > g(n) = 4n =4(3) = 12 and
 >
-> f(n) = 4n + 3 = 4(3)+3 = 15\
+> f(n) = 4n + 3 = 4(3)+3 = 15
 > g(n) = 5n =5(3) = 15 and
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image58.png){width="4.844443350831146in"
-height="2.076791338582677in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image59.png){width="5.069444444444445in"
-height="4.875in"}
-
-> here, c1 is 4, c2 is 5 and n0 is 3\
+> here, c1 is 4, c2 is 5 and n0 is 3
 > Thus, from the above equation we get c1 *g*(n) *f*(n) c2 *g*(n). This
 > concludes that Theta notation depicts the running time between the
 > upper bound and lower bound.
 
-**1.11 ALGORITHM DESIGN TECHNIQUE** 1.11.1 Divide and Conquer\
-1.11.2 Back Tracking Method\
-1.11.3 Dynamic programming
+**1.11 ALGORITHM DESIGN TECHNIQUE** 1.11.1 Divide and Conquer
+>1.11.2 Back Tracking Method
+>1.11.3 Dynamic programming
 
 **1.11.1 Divide and Conquer**
 
@@ -1230,13 +947,7 @@ only if they are small enough to be solved, otherwise step1 is executed.
 **Combine**: In this final step, the solution obtained by the sub
 problems are combined to create solution to the original problem.
 
-> Generally,\
-> we can\
-> follow\
-> the **divide-**\
-> **and-**
-
-**conquer** approach in a three-step process.
+> Generally, we can follow the **divide-** **and-** **conquer** approach in a three-step process.
 
 **Examples:** The specific computer algorithms are based on the Divide &
 Conquer approach:
@@ -1244,13 +955,7 @@ Conquer approach:
 > 1.Maximum and Minimum Problem
 >
 > 2.Binary Search
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image60.png){width="0.3055555555555556in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image61.png){width="0.3888888888888889in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image62.png){width="1.0972222222222223in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image63.png){width="0.3055555555555556in"
-height="1.3888888888888888e-2in"}
-
+>
 > 3.Sorting (merge sort, quick sort)
 >
 > 4.Tower of Hanoi.
@@ -1303,10 +1008,6 @@ height="1.3888888888888888e-2in"}
 >
 > **Advantages of Divide and Conquer**
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image66.png){width="0.3888888888888889in"
-height="1.3888888888888888e-2in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image67.png){width="0.3055555555555556in"
-height="1.3888888888888888e-2in"}
-
 > oDivide and Conquer tend to successfully solve one of the biggest
 > problems, such as the Tower of Hanoi, a mathematical puzzle. It is
 > challenging to solve\
@@ -1319,26 +1020,15 @@ height="1.3888888888888888e-2in"}
 > it solves simple subproblems within the cache memory instead of
 > accessing the slower main memory.
 
-+-----------------------------------------------------------------------+
-| > **Disadvantages of Divide and Conquer**                             |
-|                                                                       |
-| ![](vertopal_0072da1cf7c                                              |
-| 9483f82278d62c70a24bd/media/image64.png){width="0.4722222222222222in" |
-| height="0.20833333333333334in"}                                       |
-|                                                                       |
-| > oSince most of its algorithms are designed by incorporating         |
-| > recursion, so it necessitates high memory management.               |
-| > ![](vertopal_0072da1cf7c                                            |
-| 9483f82278d62c70a24bd/media/image65.png){width="0.5138888888888888in" |
-| > height="1.3888888888888888e-2in"}                                   |
-+=======================================================================+
-+-----------------------------------------------------------------------+
-
+**Disadvantages of Divide and Conquer**                             |
+> Since most of its algorithms are designed by incorporating recursion, so it necessitates high memory management.
+> 
 > oAn explicit stack may overuse the space.
 >
 > oIt may even crash the system if the recursion is performed rigorously
 > greater than the stack present in the CPU.
 >
+
 > **1.11.2 Backtracking**
 >
 > **Introduction**
@@ -1357,29 +1047,12 @@ height="1.3888888888888888e-2in"}
 > (its children)
 >
 > oEach node in the tree, other than the root, has exactly one parent
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image68.png){width="4.6875in"
-height="1.875in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image71.png){width="4.729166666666667in"
-height="1.7626881014873141in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image72.png){width="1.1944444444444444in"
-height="0.9305555555555556in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image73.png){width="0.19444444444444445in"
-height="0.125in"}
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image69.png){width="0.3888888888888889in"
-height="0.2361111111111111in"}
-
+>
 > Generally, however, we draw our trees downward, with the root at the
 > top.
 >
 > A tree is composed of nodes.
 >
-> ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image70.png){width="2.5555555555555554in"
-> height="1.5972222222222223in"}
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image74.png){width="3.6944444444444446in"
-height="2.0555555555555554in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image75.png){width="4.6875in"
-height="3.7083333333333335in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image76.png){width="4.694444444444445in"
-height="2.4166666666666665in"}![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image77.png){width="0.3472222222222222in"
-height="0.625in"}
 
 > **Backtracking can understand of as searching a tree for a particular
 > \"goal\" leaf node.**
@@ -1461,9 +1134,6 @@ required after finding out optimal solution.)**
 Now for any problem to be solved through dynamic programming approach it
 must follow the following conditions:
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
-
 **Principle of Optimality:** It states that for solving the master
 problem optimally, its sub problems should be solved optimally. It
 should be noted that not all the times each sub problem(s) is solved
@@ -1493,7 +1163,7 @@ as follows: 1.Knapsack problem.
 >
 > 9.Optimal binary search trees.
 
-**1.12 SUMMARY**\
+**1.12 SUMMARY**
 A data structure is a particular way of storing and organizing data
 either in computer's memory or on the disk storage so that it can be
 used efficiently.
@@ -1528,9 +1198,6 @@ element that is inserted first is the first to be taken out. The
 elements in a queue are added at one end called the rear and removed
 from the other end called the front.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
-
 A tree is a non-linear data structure which consists of a collection of
 nodes arranged in a hierarchical tree structure.
 
@@ -1559,65 +1226,5 @@ The efficiency of an algorithm is expressed in terms of the number of
 elements that has to be processed and the type of the loop that is being
 used.
 
-**1.13 MODEL QUESTIONS**\
-1.Define data structures. Give some examples.
 
-> 2.In how many ways can you categorize data structures? Explain each of
-> them. 3.Discuss the applications of data structures.
->
-> 4.Write a short note on different operations that can be performed on
-> data structures.
->
-> 5.Write a short note on abstract data type.
->
-> 6.Explain the different types of data structures. Also discuss their
-> merits and demerits.
->
-> 7.Define an algorithm. Explain its features with the help of suitable
-> examples. 8.Explain and compare the approaches for designing an
-> algorithm.
->
-> 9.What do you understand by a graph?
->
-> 10.Explain the criteria that you will keep in mind while choosing an
-> appropriate algorithm to solve a particular problem.
->
-> 11.What do you understand by time--space trade-off?
->
-> 12.What do you understand by the efficiency of an algorithm?
->
-> 13.How will you express the time complexity of a given algorithm?
->
-> 14.Discuss the significance and limitations of the Big O notation.
->
-> 15.Discuss the best case, worst case and average case complexity of an
-> algorithm.
->
-> 16.Categorize algorithms based on their running time complexity.
->
-> 17.Give examples of functions that are in Big O notation as well as
-> functions that are not in Big O notation.
->
-> 18.Explain the Ω notation.
-
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image42.png){width="4.847222222222222in"
-height="4.430555555555555in"}
-
-> 19.Give examples of functions that are in Ω notation as well as
-> functions that are not in Ω notation.
->
-> 20.Explain the Θ notation.
->
-> 21.Give examples of functions that are in Θ notation as well as
-> functions that are
->
-> not in Θ notation.
->
-> 22.Explain the ω notation.
->
-> 23.Give examples of functions that are in ω notation as well as
-> functions that are
->
-> in ω notation.
-
-**1.14**
+**Thank you**✨
