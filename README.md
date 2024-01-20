@@ -1,21 +1,7 @@
 
  **Introduction to Data Structures and Algorithms**>
 
- 
- 
-> **[OBJECTIVE]{.underline}**
-
-> After studying this unit, you will be able to:\
-> •Discuss the concept of data structure\
-> •Discuss the need for data structures\
-> •Explain the classification of data structures\
-> •Discuss abstract data types\
-> •Discuss various operations on data structures\
-> •Explain algorithm complexity\
-> •Understand the basic concepts and notations of data structures
-
-
- **1.1 INTRODUCTION**
+ **1.1 DATA STRUCTURE**
  
 > The study of data structures helps to understand the basic concepts
 > involved in organizing and storing data as well as the relationship
@@ -159,17 +145,15 @@ heterogeneous (different data type).
 These are further divided into linear and non-linear data structure
 based on the structure and arrangement of data.
 
-**1.3.2.1 Linear Data Structure**\
+**1.3.2.1 Linear Data Structure**
 A data structure that maintains a linear relationship among its elements
 is called a linear data structure. Here, the data is arranged in a
 linear fashion. But in the memory, the arrangement may not be
 sequential.
 
 > Ex: Arrays, linked lists, stacks, queues.
-> ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image8.png){width="4.847222222222222in"
-> height="4.430555555555555in"}
->
-> **1.3.2.1 Non-linear Data Structure**\
+
+ **1.3.2.1 Non-linear Data Structure**
 > Non-linear data structure is a kind of data structure in which data
 > elements are not arranged in a sequential order. There is a
 > hierarchical relationship between individual data items. Here, the
