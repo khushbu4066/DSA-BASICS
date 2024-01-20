@@ -1,50 +1,10 @@
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image1.png){width="4.847222222222222in"
-height="4.430555555555555in"}
 
-**Unit 1: Chapter 1**
+ **Introduction to Data Structures and Algorithms**>
 
-> **Introduction to Data Structures and Algorithms**
->
-> 1.0 Objective\
-> 1.1 Introduction:\
-> 1.2 Basic Concepts of Data Structures\
-> 1.2.1 Basic Terminology\
-> 1.2.2 Need for Data Structures
->
-> 1.2.3 Goals of Data Structure
->
-> 1.2.4 Features of Data Structure
->
-> 1.3 Classification of Data Structures\
-> 1.4 Static Data Structure vs Dynamic Data Structure 1.5 Operations on
-> Data Structures
->
-> 1.6 Abstract Data Type
+ 
+ 
+> **[OBJECTIVE]{.underline}**
 
-1.7 Algorithms\
-1.8 Algorithm Complexity\
-1.8.1 Time Complexity\
-1.8.2 Space Complexity\
-1.9 Algorithmic Analysis\
-1.7.1 Worst-case\
-1.7.2 Average-case\
-1.7.3 Best-case\
-1.10 Mathematical Notation\
-1.10.1 Asymptotic\
-1.10.2 Asymptotic Notations\
-1.10.2.1 Big-Oh Notation (O) 1.10.2.2 Big-Omega Notation (**Ω**)
-1.10.2.3 Big-Theta Notation (**Θ**) 1.11 Algorithm Design technique\
-1.11.1 Divide and Conquer\
-1.11.2 Back Tracking Method\
-1.11.3 Dynamic programming\
-1.12 Summary\
-1.13 Model Questions\
-1.14 List of References
-
-> **[1.0 OBJECTIVE]{.underline}**
-> ![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image2.png){width="5.347222222222222in"
-> height="4.388888888888889in"}
->
 > After studying this unit, you will be able to:\
 > •Discuss the concept of data structure\
 > •Discuss the need for data structures\
@@ -53,64 +13,57 @@ height="4.430555555555555in"}
 > •Discuss various operations on data structures\
 > •Explain algorithm complexity\
 > •Understand the basic concepts and notations of data structures
->
-> **1.1 INTRODUCTION**\
+
+
+ **1.1 INTRODUCTION**
+ 
 > The study of data structures helps to understand the basic concepts
 > involved in organizing and storing data as well as the relationship
 > among the data sets. This in turn helps to determine the way
 > information is stored, retrieved and modified in a computer's memory.
->
-> **1.2 BASIC CONCEPT OF DATA STRUCTURE**
->
-> Data structure is a branch of computer science. The study of data
+
+**1.2 BASIC CONCEPT OF DATA STRUCTURE**
+
+ Data structure is a branch of computer science. The study of data
 > structure helps you to understand how data is organized and how data
 > flow is managed to increase efficiency of any process or program. Data
 > structure is the structural representation of logical relationship
 > between data elements. This means that a data structure organizes data
 > items based on the relationship between the data elements.
->
-> Example:\
+ **Example:**
 > A house can be identified by the house name, location, number of
 > floors and so on. These structured set of variables depend on each
 > other to identify the exact house. Similarly, data structure is a
 > structured set of variables that are linked to each other, which forms
 > the basic component of a system
->
-> **1.2.1 Basic Terminology**
->
+
+**1.2.1 Basic Terminology**
+
 > Data structures are the building blocks of any program or the
 > software. Choosing the appropriate data structure for a program is the
 > most difficult task for a programmer.
->
+
 > Following terminology is used as far as data structures are concerned
->
-> **Data:** Data can be defined as an elementary value or the collection
-> of values, for example, student\'s name and its id are the data about
-> the student.
->
-> **Group Items:** Data items which have subordinate data items are
-> called Group item, for example, name of a student can have first name
-> and the last name.
 
-![](vertopal_0072da1cf7c9483f82278d62c70a24bd/media/image3.png){width="4.847222222222222in"
-height="3.9722222222222223in"}
+ **Data:** 
+ Data can be defined as an elementary value or the collection of values, for example, student\'s name and its id are the data about the student.
 
-**Record:** Record can be defined as the collection of various data
-items, for example, if we talk about the student entity, then its name,
-address, course and marks can be grouped together to form the record for
-the student.
+**Group Items:** 
+Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.
+
+**Record:** 
+Record can be defined as the collection of various data items, for example, if we talk about the student entity, then its name, address, course and marks can be grouped together to form the record for the student.
 
 **File:** A File is a collection of various records of one type of
 entity, for example, if there are 60 employees in the class, then there
 will be 20 records in the related file where each record contains the
 data about each employee.
 
-**Attribute and Entity:** An entity represents the class of certain
-objects. it contains various attributes. Each attribute represents the
-particular property of that entity.
+**Attribute and Entity:** 
+An entity represents the class of certain objects. it contains various attributes. Each attribute represents the particular property of that entity.
 
-**Field:** Field is a single elementary unit of information representing
-the attribute of an entity.
+**Field:** 
+Field is a single elementary unit of information representing the attribute of an entity.
 
 **1.2.2 Need for Data Structure**\
 •It gives different level of organization data.
